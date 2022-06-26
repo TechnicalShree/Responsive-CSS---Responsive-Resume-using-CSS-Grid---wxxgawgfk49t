@@ -18,7 +18,8 @@ body {
   grid-template-columns: 300px 700px;
 }
 .left-section {
-  grid-column: span 1;
+  /* grid-area: 1 / 1 / 3 / 2; */
+  /* grid-column: span 1; */
   padding: 1rem;
   background-color: #264e58;
 }
@@ -77,6 +78,24 @@ body {
 }
 
 .right-section {
-  grid-column: span 1 / span 2;
+  /* grid-area: 1 / 2 / 3 / 3; */
+
+  /* grid-column: span 1 / span 2; */
   background-color: #88bdbb;
+}
+.right-main-content {
+  padding: 2rem 3rem;
+}
+.right-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 673px) {
+  .main-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
