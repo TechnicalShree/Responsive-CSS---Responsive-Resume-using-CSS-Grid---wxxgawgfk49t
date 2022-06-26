@@ -19,7 +19,7 @@ body {
 }
 .left-section {
   /* grid-area: 1 / 1 / 3 / 2; */
-  /* grid-column: span 1; */
+  grid-column: span 1;
   padding: 1rem;
   background-color: #264e58;
 }
@@ -80,7 +80,7 @@ body {
 .right-section {
   /* grid-area: 1 / 2 / 3 / 3; */
 
-  /* grid-column: span 1 / span 2; */
+  grid-column: span 1 / span 2;
   background-color: #88bdbb;
 }
 .right-main-content {
